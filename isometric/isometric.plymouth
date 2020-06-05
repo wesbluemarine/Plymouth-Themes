@@ -1,0 +1,23 @@
+[Plymouth Theme]
+Name=isometric
+Description= simple isometric theme
+ModuleName=two-step
+
+[two-step]
+ImageDir=/usr/share/plymouth/themes/isometric
+HorizontalAlignment=.5
+VerticalAlignment=.5
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+MessageBelowAnimation=true
+
+[boot-up]
+UseEndAnimation=true
+
+[shutdown]
+UseEndAnimation=false
+
+[reboot]
+UseEndAnimation=false
